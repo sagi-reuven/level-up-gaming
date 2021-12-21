@@ -5,7 +5,7 @@ const usersRoute = require("./routes/users");
 const auth = require("./routes/auth");
 /*  CONNCTION TO MONGO */
 mongoose
-  .connect("mongodb+srv://sagi:sagilat@users.dlqxw.mongodb.net/level-up-db?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://sagi:sagilat@cluster0.zlfbf.mongodb.net/level-up-gaming?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
