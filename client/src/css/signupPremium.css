@@ -1,0 +1,18 @@
+.signupPremium-container {
+  background-image: url("../images//newlogo/3D.png");
+  background-size: cover;
+  background-position-x: 0.8rem;
+  min-height: 70vh;
+  background-position-y: center;
+  box-shadow: inset 0px 10px 10px 1px, inset 10px 2px 2px 1px rgba(255, 36, 36, 0.514),
+    inset 0px -10px 10px 1px rgba(255, 36, 36, 0.514),
+    inset -10px 10px 10px 1px rgba(255, 36, 36, 0.514);
+}
+
+
+@media only screen and(min-width:350) and  (max-width:600px)  {
+.signupPremium-container {
+  min-height: 100vh;
+}
+
+}

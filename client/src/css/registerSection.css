@@ -1,0 +1,7 @@
+.premium_box {
+  background-image: url("../images/background-image.jpg");
+  background-size: cover;
+}
+.premium_box:hover {
+  box-shadow: 0 16px 20px 5px rgb(226, 8, 8), 0 16px 20px 5px rgb(226, 8, 8);
+}
